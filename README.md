@@ -22,10 +22,3 @@ A sleek, responsive web application built with modern software engineering princ
 
 ---
 
-## ☁️ Deployment Instructions
-To host this project for free on **GitHub Pages**:
-1. Push your code to your GitHub repository.
-2. Go to your repository on GitHub.com.
-3. Navigate to **Settings** > **Pages** (on the left sidebar).
-4. Under "Build and deployment" > "Branch", select **main** and click **Save**.
-5. After a minute, your site will be live at `https://<your-username>.github.io/password-generator/`!
