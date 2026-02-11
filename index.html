@@ -12,8 +12,14 @@
             <h1 id = "first_line">Generate a </h1>
             <h1 id = "second_line">random password</h1>
             <h3 id = "third_line">Never use an insecure password again.</h3>
+            <div class = "toggle-container">
+                <label><input type = "checkbox" id = "uppercase" checked>Include Uppercase</label>
+                <label><input type = "checkbox" id = "lowercase" checked>Include Lowercase</label>
+                <label><input type = "checkbox" id = "numbers" checked>Include Numbers</label>
+                <label><input type = "checkbox" id = "symbols" checked>Include Symbols</label>
+            </div>
             <input type = number placeholder="Password Length" id = "password-length">
-
+            <p id="error-message" ></p>
             <button id = "gen-button" onclick="render_password()">Generate Passwords</button>
             <div id="line">
             </div>
