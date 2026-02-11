@@ -1,8 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --bg-darker: #1C1C1C;
+    --bg-dark: #1F2937;
+    --bg-lighter: #273549;
+    --primary-green: #10B981;
+    --accent-green: #4ADF86;
+    --text-white: white;
+    --text-gray: gray;
+}
+
 body {
     display:flex;
-    background-color: #1C1C1C;
+    background-color: var(--bg-darker);
     font-family: 'Karla', sans-serif;
     justify-content: center;
     align-items: center;
@@ -15,7 +26,7 @@ body {
     flex-direction:column;
     justify-content:flex-start;
     height:600px;
-    background-color: #1F2937;
+    background-color: var(--bg-dark);
     width: 550px;
     padding:50px;
     border-radius: 10px;
@@ -31,7 +42,7 @@ body {
 }
 
 #password-length{
-    background-color: #273549;
+    background-color: var(--bg-lighter);
     border-width: 0cap;
     border-radius: 6px;
     width: 120px;
@@ -41,8 +52,8 @@ body {
 }
 
 #password-box1{
-    background-color: #273549;
-    color: #4ADF86;
+    background-color: var(--bg-lighter);
+    color: var(--accent-green);
     border-width: 0cap;
     border-radius: 6px;
     width: 250px;
@@ -51,8 +62,8 @@ body {
 }
 
 #password-box2{
-    background-color: #273549;
-    color: #4ADF86;
+    background-color: var(--bg-lighter);
+    color: var(--accent-green);
     border-width: 0cap;
     border-radius: 6px;
     width: 250px;
@@ -66,7 +77,7 @@ body {
 }
 
 #second_line{
-    color:#4ADF86;
+    color:var(--accent-green);
     margin-top: 1px;
     margin-bottom: 1px;
 
@@ -87,7 +98,7 @@ body {
 
 #gen-button{
     color:white ;
-    background-color: #10B981;
+    background-color: var(--primary-green);
     border-radius: 6px;
     margin-right: 20px;
     width: 210px;
@@ -97,7 +108,7 @@ body {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
-    border-color: #10B981;
+    border-color: var(--primary-green);
     border-width: 0cap;
 }
 
@@ -113,7 +124,7 @@ body {
     display:flex;
     flex-wrap:wrap;
     gap: 20px;
-    color:#10B981;
+    color:var(--primary-green);
     margin-top: 20px;
     margin-bottom: 20px;
 }
