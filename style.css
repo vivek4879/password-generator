@@ -27,13 +27,36 @@ body {
     justify-content:space-between;
     align-items:center;
     margin-right: 40px;
+    gap: 20px;
 }
 
-.password-box{
+#password-length{
     background-color: #273549;
+    border-width: 0cap;
+    border-radius: 6px;
+    width: 120px;
+    height: 25px;
+    margin-top: 20px;
+    color:white;
+}
+
+#password-box1{
+    background-color: #273549;
+    color: #4ADF86;
+    border-width: 0cap;
     border-radius: 6px;
     width: 250px;
-    height: 50px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+#password-box2{
+    background-color: #273549;
+    color: #4ADF86;
+    border-width: 0cap;
+    border-radius: 6px;
+    width: 250px;
+    height: 30px;
     margin-top: 20px;
 }
 
@@ -67,7 +90,7 @@ body {
     background-color: #10B981;
     border-radius: 6px;
     margin-right: 20px;
-    width: 200px;
+    width: 210px;
     height: 50px;
     font-family: inherit;
     font-size: 20px;
@@ -75,9 +98,9 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     border-color: #10B981;
+    border-width: 0cap;
 }
     
 /* *{
     outline:1px solid red;
 } */
- 

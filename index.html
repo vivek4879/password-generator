@@ -12,20 +12,20 @@
             <h1 id = "first_line">Generate a </h1>
             <h1 id = "second_line">random password</h1>
             <h3 id = "third_line">Never use an insecure password again.</h3>
-            <button id = "gen-button">Generate Password</button>
+            <input type = number placeholder="Password Length" id = "password-length">
+
+            <button id = "gen-button" onclick="render_password()">Generate Passwords</button>
             <div id="line">
             </div>
             <div class = "password-wrapper">
-                <div class="password-box">
+                <input id="password-box1" type="text" readonly>
 
-                </div>
-                <div class="password-box">
+                <input id="password-box2" type="text" readonly>
 
-                </div>
             </div>
 
         </div>
-
+        <script src="script.js"></script>
     </body>
     
 </html>
